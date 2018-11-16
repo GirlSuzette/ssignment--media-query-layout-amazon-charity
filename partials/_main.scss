@@ -1,0 +1,26 @@
+@import "./variables";
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+ 
+main{
+    // margin-left: 40px;
+    // margin-right: 40px;
+    @include margin (40px);
+}
+
+.info__subheader{
+
+    h1 {
+	    color: $color-Tropical-Rain-Forest;
+	    font-family: 'PT Mono', monospace;
+    }   
+    
+}
+

@@ -1,0 +1,51 @@
+// Media Query Movil
+
+@media only screen and (min-width: 768px) {
+
+    
+    .logo{ 
+        display: flex;
+        justify-content: space-around;
+
+        &__Amazon{
+            width: 30%;
+            margin: 0;
+        }
+    } 
+
+    .info__subheader{
+        display: flex;
+        flex-wrap: wrap;   
+    }
+
+    .people{
+        display: flex;
+        flex-wrap: wrap;
+
+        &__pers{
+            width: 46%;
+            margin-right: 20px;
+        }
+    
+    }
+
+}
+
+// Media Queries 
+@media only screen and (min-width: 1024px) {
+   
+    .logo{ 
+        width: 100%;
+    
+    } 
+   
+    .people{
+       
+        &__pers{
+            width: 30%;
+            margin-right: 26px;
+        }
+    
+    }
+
+}
